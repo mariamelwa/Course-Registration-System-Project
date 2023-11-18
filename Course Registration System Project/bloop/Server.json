@@ -1,0 +1,259 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "Server",
+        "directory": "/Users/cintia/Documents/BaccInf/Sem2/IFT1025/TP2/IFT1025-TP2-server-main",
+        "workspaceDir": "/Users/cintia/Documents/BaccInf/Sem2/IFT1025/TP2/IFT1025-TP2-server-main",
+        "sources": [
+            "/Users/cintia/Documents/BaccInf/Sem2/IFT1025/TP2/IFT1025-TP2-server-main/src/main/java"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/cintia/Documents/BaccInf/Sem2/IFT1025/TP2/IFT1025-TP2-server-main/target/classes",
+            "/Users/cintia/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar",
+            "/Users/cintia/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-mac.jar",
+            "/Users/cintia/.m2/repository/org/openjfx/javafx-controls/19/javafx-controls-19.jar",
+            "/Users/cintia/.m2/repository/org/openjfx/javafx-controls/19/javafx-controls-19-mac.jar",
+            "/Users/cintia/.m2/repository/org/openjfx/javafx-graphics/19/javafx-graphics-19.jar",
+            "/Users/cintia/.m2/repository/org/openjfx/javafx-graphics/19/javafx-graphics-19-mac.jar",
+            "/Users/cintia/.m2/repository/org/openjfx/javafx-base/19/javafx-base-19.jar",
+            "/Users/cintia/.m2/repository/org/openjfx/javafx-base/19/javafx-base-19-mac.jar"
+        ],
+        "out": "/Users/cintia/Documents/BaccInf/Sem2/IFT1025/TP2/IFT1025-TP2-server-main/target",
+        "classesDir": "/Users/cintia/Documents/BaccInf/Sem2/IFT1025/TP2/IFT1025-TP2-server-main/target/classes",
+        "resources": [
+            "/Users/cintia/Documents/BaccInf/Sem2/IFT1025/TP2/IFT1025-TP2-server-main/src/main/resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "11",
+                "-source",
+                "11",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-graphics",
+                    "version": "19",
+                    "artifacts": [
+                        {
+                            "name": "javafx-graphics",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-graphics/19/javafx-graphics-19.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "sources",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-graphics/19/javafx-graphics-19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.11",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/Users/cintia/.m2/repository/junit/junit/4.11/junit-4.11.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/Users/cintia/.m2/repository/junit/junit/4.11/junit-4.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-controls",
+                    "version": "19",
+                    "artifacts": [
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "mac",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-controls/19/javafx-controls-19-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-graphics",
+                    "version": "19",
+                    "artifacts": [
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "mac",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-graphics/19/javafx-graphics-19-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-fxml",
+                    "version": "13",
+                    "artifacts": [
+                        {
+                            "name": "javafx-fxml",
+                            "classifier": "mac",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-base",
+                    "version": "19",
+                    "artifacts": [
+                        {
+                            "name": "javafx-base",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-base/19/javafx-base-19.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "sources",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-base/19/javafx-base-19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-base",
+                    "version": "19",
+                    "artifacts": [
+                        {
+                            "name": "javafx-base",
+                            "classifier": "mac",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-base/19/javafx-base-19-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-fxml",
+                    "version": "13",
+                    "artifacts": [
+                        {
+                            "name": "javafx-fxml",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar"
+                        },
+                        {
+                            "name": "javafx-fxml",
+                            "classifier": "sources",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-controls",
+                    "version": "19",
+                    "artifacts": [
+                        {
+                            "name": "javafx-controls",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-controls/19/javafx-controls-19.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "sources",
+                            "path": "/Users/cintia/.m2/repository/org/openjfx/javafx-controls/19/javafx-controls-19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "/Users/cintia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "/Users/cintia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
