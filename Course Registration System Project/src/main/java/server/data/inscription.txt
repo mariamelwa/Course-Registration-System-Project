@@ -1,0 +1,4 @@
+Automne	IFT2255	12345678	Michalis	Famelis	mfamelis@iro.umontreal.ca
+Hiver	IFT1025	32459086	Cintia		Soares	cintiasoares@gmail.com
+Ete	IFT2256	56678342	Mariam		Elwa	mariam.elwa2004@gmail.com
+Automne	IFT1015	42377843	Marc		Dory	marcdory@gmail.com
